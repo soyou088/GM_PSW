@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{dae2076e-bb23-4114-af88-2fba66fe303e}</ProjectGuid>
-    <RootNamespace>HomeWork</RootNamespace>
+    <ProjectGuid>{266fdb35-7809-426c-8208-cfd9c510d011}</ProjectGuid>
+    <RootNamespace>My240111RList</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>240109_ArrayResize</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="HomeWork.cpp" />
+    <ClCompile Include="240111_RList.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\consoleEngine\ConsoleEngine.vcxproj">
