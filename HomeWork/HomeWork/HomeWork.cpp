@@ -111,7 +111,7 @@ private:
 
 int main()
 {
-    LeckCheck;
+    LeakCheck;
     IntArray NewArray = IntArray(5);
     // [?][?][?][?][?]
 
